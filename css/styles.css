@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/*header */
+.main-header{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px  ;
+    transition: 0.7s;	
+}
+.main-header.active{
+    
+    background-color: #fff;
+    padding: 5px 10px ;
+}
+
+.main-header__logo{
+  position: relative;
+  color: #000000;
+  font-weight: bold;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  transition: 1.5s;
+  text-decoration: none;
+}
+.main-header__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-header__list{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.main-header__item{
+    
+    margin: 100px;
+    padding-right: 25px;
+    position: relative;
+	font-family: helvetica;
+	margin: 0 20px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: 0.7s;
+}
+.main-header__item-icon{
+    margin: 10px;
+    justify-content: flex-end;
+    
+}
+.main-header__link {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.7s;
+    
+}
+.main-header__link-i{
+    color: #000000;
+    font-size: 2em;
+    
+}
+.main-header__link:hover {
+    color: #c6c795;
+    transition: 0.3s;
+}
+.img{
+    position: relative;
+  min-height: 100vh;
+  background: url(../image/mar.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img__title{
+  color: #fff;
+  font-size: 10vw;
+  font-weight: 800;
+  text-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  opacity: 0.3;
+}
+/*end header*/
+/*start cards */
+.card{
+    
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.card-info{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.card-info__element{
+    width: 100px;
+    height: 150px;
+    border-style: dotted;
+    border-color: #fff;
+    background-color: #f1e195;
+    border-radius: 15px ;
+    margin: 15px 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.card-info__text{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+.card-info__parra{
+    display: inline;
+}
+
+
+
+.section{
+position: relative;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.section__sunset{
+    text-align: center;
+  margin-bottom: 30px;
+}
+.section__sunset .section-card__img{
+    height: 700px;
+}
+.section__sunset .section-card__img{
+    overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  height: 790px;
+}
+
+
+
+
+.card-image__img{
+    max-width: 120%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image__img-txt{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+.card-title__p{
+    position: absolute;
+    top: 130px;
+    left: 39px;
+}
+.card-title__btn{
+    border: none;
+	min-width: 180px;
+	height: 50px;
+	padding: 0 30px;
+	
+	
+	display: inline-block;
+    border: 2px solid rgb(3, 3, 3);
+	border-radius: 100px;
+	
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	transition: .3s ease all;
+    position: absolute;
+    top: 180px;
+    left: 90px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.car-title__a{
+    text-decoration: none;
+}
+.car-title__a:hover{
+    
+    text-decoration: none;
+}
+.car-title__a:hover{
+    text-decoration: none;
+}
+.card-title__text{
+    font-weight: 600;
+    color: #000000;
+}
+.card-title__arrow{
+    color: #000000;
+}
+
+/*end header*/
+
+/*start gallery*/
+.container-galeria__se{
+    font-family: 'open sans';
+}
+
+.container-galeria__title{
+    text-align: center;
+    margin:20px 0 15px 0;
+    font-weight: 300;
+}
+.container-galeria__imagenes{
+    display:flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+}
+
+.container-galeria__imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:250px;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}
+.imagen .container-imagen__t{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    background:rgba(140, 160, 172, 0.356) ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay-icon{
+    color: #e4cc60;
+    font-weight: 300;
+    font-size:25px;
+    position: absolute;
+    top: 70%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
